@@ -3,17 +3,17 @@ This project is a real-time face recognition system built using PyTorch, FaceNet
 
  ## What This Project Does
 
--Detects faces using MTCNN
+- Detects faces using MTCNN
 
--Generates high-quality 512-dim embeddings using FaceNet (InceptionResnetV1)
+- Generates high-quality 512-dim embeddings using FaceNet (InceptionResnetV1)
 
--Saves all known-face embeddings into a single .npz file
+- Saves all known-face embeddings into a single .npz file
 
--Performs real-time face recognition
+- Performs real-time face recognition
 
--Matches live faces with stored embeddings using cosine similarity
+- Matches live faces with stored embeddings using cosine similarity
 
--Displays name + confidence score on video
+- Displays name + confidence score on video
 
 ## Key Features
 
